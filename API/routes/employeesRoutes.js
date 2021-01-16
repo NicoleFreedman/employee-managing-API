@@ -14,10 +14,13 @@ const {
 } = require('../controllers/employeesController');
 
 // employees routes
-router.post('/', add_employee);
-router.get('/', list_all_employees);
-router.get('/search', find_employee);
-router.put('/:id', update_employee);
-router.delete('/:id', delete_employee);
+// employees routes
+router.route('/')
+  .get(list_all_employees)
+  .post(add_employee);
+router.route('/search').get(find_employee);
+router.route('/:id')
+  .put(update_employee)
+  .delete(delete_employee);
 
 module.exports = router;
