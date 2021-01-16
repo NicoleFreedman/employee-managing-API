@@ -1,0 +1,58 @@
+[
+    {
+        "id":"employee1610718453074",
+        "name": "Chris Pan",
+        "position": "Restaurant Manager",
+        "city": "Tel Aviv",
+        "department": "Managerial Staff",
+        "assigned": true
+    },
+    {
+        "id": "employee1610718453014",
+        "name": "Joe Kanner",
+        "position": "Chef",
+        "city": "Tel Aviv",
+        "department": "Kitchen Staff",
+        "assigned": true
+    },
+    {
+        "id": "employee1610718453054",
+        "name": "Marta Koffman",
+        "position": "Waiter",
+        "city": "Tel Aviv",
+        "department": "Service",
+        "assigned": true
+    },
+    {
+        "id": "employee1610718453094",
+        "name": "William Bon",
+        "position": "Waiter",
+        "city": "Tel Aviv",
+        "department": "Service",
+        "assigned": true
+    },
+    {
+        "id": "employee1610718453114",
+        "name": "Mark Fred",
+        "position": "Bartender",
+        "city": "Tel Aviv",
+        "department": "Bar Staff",
+        "assigned": true
+    },
+    {
+        "id": "employee1610718453134",
+        "name": "John Warner",
+        "position": "Driver",
+        "city": "Haifa",
+        "department": "Delivery Staff",
+        "assigned": false
+    },
+    {
+        "id": "employee1610718453034",
+        "name": "Julie Lorence",
+        "position": "Social Media Manager",
+        "city": "Jerusalem",
+        "department": "Marketing",
+        "assigned": false
+    }
+]
