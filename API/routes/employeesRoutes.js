@@ -14,7 +14,6 @@ const {
 } = require('../controllers/employeesController');
 
 // employees routes
-// employees routes
 router.route('/')
   .get(list_all_employees)
   .post(add_employee);
